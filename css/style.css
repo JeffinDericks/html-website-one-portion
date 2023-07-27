@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col_3{
+    width: 25%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.aligncenter{
+    /* text-align: center; */
+    align-items: center;
+}
+
+/* work starts here */
+
+.section{
+    background-color: beige;
+    width: auto;
+    height: 400px;
+    
+}
+
+.box{
+    border: 2px solid lightgray;
+    padding: 24px 0 24px 24px;
+    margin-top: 40px;
+
+}
+
+.box:hover{
+    border: 1px solid #5fcf80;
+    
+}
+
+.box:hover h2 a{
+    color: #5fcf80;
+}
+
+.box h2 a{                               
+    color: black;
+    text-decoration: none;
+}
+
+.box h2 i{
+    padding-right: 10px;
+}
+
+/* .two{
+    border: 2px solid lightgray;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.three{
+    border: 2px solid lightgray;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.four{
+    border: 2px solid lightgray;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.five{
+    border: 2px solid lightgray;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.six{
+    border: 2px solid lightgray;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.seven{
+    border: 2px solid lightgray;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.eight{
+    border: 2px solid lightgray;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.nine{
+    border: 2px solid lightgray;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.ten{
+    border: 2px solid lightgray;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.eleven{
+    border: 2px solid lightgray;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.twelve{
+    border: 2px solid lightgray;
+    height: 80px;
+    margin-top: 40px;
+} */
